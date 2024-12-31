@@ -47,3 +47,11 @@ state = tree.get_state_at_tag("v1.0", session=session)
 # Find paths
 path = tree.find_path(node1.id, node2.id, session=session)
 ```
+
+### Testing
+
+To run all unit and integration tests:
+
+```bash
+pytest -v tests/
+```
